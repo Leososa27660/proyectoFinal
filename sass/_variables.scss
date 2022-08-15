@@ -1,0 +1,16 @@
+// variables
+
+$color-primario: #ffb727;
+$height-imagen: 100%;
+
+
+img {
+height: $height-imagen;
+width: 100%;
+}
+
+hr {
+    height: 10px;
+    color: $color-primario;
+    
+  }
