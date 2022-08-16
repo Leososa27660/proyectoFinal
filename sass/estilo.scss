@@ -62,7 +62,7 @@ body {
 a { 
   text-decoration: none; 
   color: rgb(255, 255, 255)} 
-  
+
 header #hero {
   width: 100%;
   height: 100vh;
@@ -584,10 +584,11 @@ mark {
 
 .gallery-image {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   object-fit: cover;
   transition: transform 400ms ease-out;
+ 
 
   &:hover {
     transform: scale(1.15);
@@ -1642,6 +1643,12 @@ mark {
   .imagenLuna {
     display: none;
   }
+}
+
+@media (max-width: 370px) {
+.gallery {
+  display: none
+}
 }
 
 @media (max-width: 765px) {
