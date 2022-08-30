@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* general */
 @import url("https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap");
 img {
   height: 100%;
@@ -9,244 +8,6 @@ img {
 hr {
   height: 10px;
   color: #ffb727;
-}
-
-body {
-  font-family: "Noticia Text", serif;
-  /*  background: url(../img/fondopag.png);
-   background-size:contain; */
-}
-
-footer {
-  background: url(../img/fondopagina.jpg);
-  background-size: cover;
-}
-
-.float {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: #FFF;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
-  z-index: 100;
-}
-
-.my-float {
-  margin-top: 16px;
-}
-
-header h1, h5 {
-  color: #ffb727;
-}
-
-hr {
-  height: 10px;
-  color: #ffb727;
-}
-
-.button {
-  color: #ffb727;
-}
-
-.botones {
-  background-color: #dddcdb;
-}
-
-.botones3 {
-  background-color: #c4c0c0;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-header #hero {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/lunar.png") top right;
-  background-size: cover;
-  position: relative;
-}
-header #hero .hero-container {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 15px;
-}
-header #hero .btn-scroll {
-  transition: 0.4s;
-  color: rgba(255, 255, 255, 0.6);
-  animation: up-down 1s ease-in-out infinite alternate-reverse both;
-}
-header #hero .btn-scroll i {
-  font-size: 48px;
-}
-header #hero .btn-scroll:hover {
-  color: #ffb727;
-}
-header #hero:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.65);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-@-webkit-keyframes up-down {
-  0% {
-    transform: translateY(5px);
-  }
-  100% {
-    transform: translateY(-5px);
-  }
-}
-@keyframes up-down {
-  0% {
-    transform: translateY(5px);
-  }
-  100% {
-    transform: translateY(-5px);
-  }
-}
-#hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 64px;
-  font-family: "Satisfy", serif;
-  color: #fff;
-}
-#hero h2 {
-  color: #eee;
-  margin-bottom: 50px;
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-header nav {
-  display: block;
-  flex-direction: row;
-  text-decoration: none;
-  text-align: right;
-  font-size: 18px;
-  word-spacing: 20px;
-}
-header nav .logoViajes {
-  padding: -20px;
-  margin: -20px;
-  width: 250px;
-  height: 250px;
-}
-
-.cambiamosDisplay {
-  display: inline-table;
-  text-decoration: none;
-}
-
-.subSub {
-  text-decoration: none;
-  position: relative;
-  top: 1px;
-  padding: 2%;
-  margin: 0%;
-}
-
-#footer {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-
-img {
-  height: 100%;
-  width: 100%;
-}
-
-.redes {
-  display: flex;
-  padding: 10px;
-  margin: 10px;
-  align-items: flex-start;
-  justify-content: space-around;
-  flex-flow: nowrap;
-}
-
-.redesTweet, .redesFace {
-  width: 50px;
-  height: 50px;
-}
-
-a:hover {
-  color: #ffb727;
-}
-
-form {
-  padding: 37.5px;
-  margin: 50px 0;
-}
-
-.parrafo {
-  font-size: 18px;
-}
-
-.colors, .amarillo {
-  color: #ffb727;
-}
-
-.carrusel {
-  margin: 10px;
-  padding: 5px;
-}
-
-.carousel-caption {
-  margin-left: 480px;
-  padding: 50px;
-}
-
-.container-1 .icon {
-  position: relative;
-  top: 0%;
-  padding: 0%;
-  margin-left: 280px;
-  margin-top: 280px;
-  z-index: 1;
-  color: #ffb727;
-}
-.container-1 input#search {
-  border: none;
-  font-size: 10pt;
-  float: inline-end;
-  padding-left: 40px;
-  border-radius: 5px;
-}
-
-.h-101 {
-  background-color: #ffb727;
-}
-
-.flecha {
-  width: 40px;
-  height: 40px;
 }
 
 /* index */
@@ -560,8 +321,8 @@ mark {
 
 .gallery-image {
   display: block;
-  width: 90%;
-  height: 90%;
+  width: 450px;
+  height: 450px;
   -o-object-fit: cover;
      object-fit: cover;
   transition: transform 400ms ease-out;
@@ -1894,6 +1655,245 @@ mark {
     display: none;
   }
 }
+/* general */
+body {
+  font-family: "Noticia Text", serif;
+  /*  background: url(../img/fondopag.png);
+   background-size:contain; */
+}
+
+footer {
+  background: url(../img/fondopagina.jpg);
+  background-size: cover;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+header h1, h5 {
+  color: #ffb727;
+}
+
+hr {
+  height: 10px;
+  color: #ffb727;
+}
+
+.button {
+  color: #ffb727;
+}
+
+.botones {
+  background-color: #dddcdb;
+}
+
+.botones3 {
+  background-color: #c4c0c0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+header #hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/lunar.png") top right;
+  background-size: cover;
+  position: relative;
+}
+header #hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 15px;
+}
+header #hero .btn-scroll {
+  transition: 0.4s;
+  color: rgba(255, 255, 255, 0.6);
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+header #hero .btn-scroll i {
+  font-size: 48px;
+}
+header #hero .btn-scroll:hover {
+  color: #ffb727;
+}
+header #hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-family: "Satisfy", serif;
+  color: #fff;
+}
+#hero h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header nav {
+  display: block;
+  flex-direction: row;
+  text-decoration: none;
+  text-align: right;
+  font-size: 18px;
+  word-spacing: 20px;
+}
+header nav .logoViajes {
+  padding: -20px;
+  margin: -20px;
+  width: 250px;
+  height: 250px;
+}
+
+.cambiamosDisplay {
+  display: inline-table;
+  text-decoration: none;
+}
+
+.subSub {
+  text-decoration: none;
+  position: relative;
+  top: 1px;
+  padding: 2%;
+  margin: 0%;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.redes {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-flow: nowrap;
+}
+
+.redesTweet, .redesFace {
+  width: 50px;
+  height: 50px;
+}
+
+a:hover {
+  color: #ffb727;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+.parrafo {
+  font-size: 18px;
+}
+
+.colors, .amarillo {
+  color: #ffb727;
+}
+
+.carrusel {
+  margin: 10px;
+  padding: 5px;
+}
+
+.carousel-caption {
+  margin-left: 480px;
+  padding: 50px;
+}
+
+.container-1 .icon {
+  position: relative;
+  top: 0%;
+  padding: 0%;
+  margin-left: 280px;
+  margin-top: 280px;
+  z-index: 1;
+  color: #ffb727;
+}
+.container-1 input#search {
+  border: none;
+  font-size: 10pt;
+  float: inline-end;
+  padding-left: 40px;
+  border-radius: 5px;
+}
+
+.h-101 {
+  background-color: #ffb727;
+}
+
+.flecha {
+  width: 40px;
+  height: 40px;
+}
+
 #header.header-scrolled {
   height: 60px;
   background: rgba(25, 28, 31, 0.8);

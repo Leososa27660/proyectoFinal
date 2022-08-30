@@ -1,0 +1,137 @@
+/* index */
+
+.row {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 30px auto;
+  }
+  
+  .distinto{
+    font-size: 20px;
+    color: #ffb727;
+    font-style: oblique;
+  }
+  
+  .modificar {
+    width: 50px;
+    margin:auto;
+  }
+  
+  .blanco {
+    color:#fff
+  }
+  
+  details {
+    summary {
+      cursor: pointer;
+      outline: none !important;
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 4px;
+      overflow: hidden;
+      background: #F09825;
+      color: white;
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 1.2em;
+      text-transform: uppercase;
+    }
+  
+    &[open] > summary::before {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: block;
+      cursor: default;
+      content: " ";
+      z-index: 99;
+      background: rgba(27, 31, 35, 0.5);
+    }
+  
+      details-dialog {
+      position: fixed;
+      width: 450px;
+      top: 0;
+      left: 50%;
+      margin: 10vh auto;
+      max-height: 80vh;
+      max-width: 90vw;
+      padding: 1em;
+      overflow-y: auto;
+      font-family: Arial;
+      transform: translateX(-50%);
+      z-index: 999;
+      animation-name: fadein;
+      animation-duration: 300ms;
+      animation-timing-function: ease-in-out;
+      background-color: #fff;
+      border: 1px solid #d1d5da;
+      border-radius: 3px;
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+      border-top: 4px solid #F09825;
+    }
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .cerrar {
+    background-color: #3b434a;
+  }
+  
+  .tarjetita {
+      
+        border: 1px solid #c4c0c0;
+         margin: 15px;
+         text-align: center;
+        background-color: #ffb727;
+        /* opacity: 0.3; */
+        }
+  
+  .table1 {
+    background-color: #ffb727;
+  }
+  
+  .resume {
+    .resume-title {
+      font-size: 26px;
+      font-weight: 700;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: #3b434a;
+    }
+  
+    .resume-item {
+      padding: 0 0 20px 20px;
+      margin-top: -2px;
+      border-left: 2px solid #ffb727;
+      position: relative;
+  
+      h4 {
+        color: #ffb727;
+      }
+    }
+  }
+  
+  #container {
+    border: solid 3px #474544;
+    max-width: 768px;
+    margin: 60px auto;
+  }
+  
+  .ubicación {
+    text-align: center;
+    color: #fff;
+  }

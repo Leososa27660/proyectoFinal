@@ -1,0 +1,175 @@
+/* Media Query */
+
+@media (max-width: 1127px) {
+    .videos {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1050px) {.container-1 { display: none;} }
+  
+  
+  @media (max-width: 1127px){
+  .whats {display: none;
+  }
+  }
+  
+  @media (max-width: 1115px) {
+    .premios {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .carrusel {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1480px) {
+    .historia {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1480px) {
+    .row-cols-3 {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 765px) {
+    .imagenLuna {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 370px) {
+  .gallery {
+    display: none
+  }
+  }
+  
+  @media (max-width: 765px) {
+    .cabo {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    #hero {
+      h1 {
+        font-size: 40px;
+      }
+  
+      h2 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .table1 {
+      background-color: rgb(255, 255, 255);
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .col-lg-4 {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .timeline {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .timeline {
+      width: 100%;
+      padding-bottom: 0;
+    }
+  
+    h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .timeline {
+      &:before {
+        left: 20px;
+        height: 100%;
+      }
+  
+      ul li {
+        &:nth-child(odd), &:nth-child(even) {
+          width: 100%;
+          text-align: left;
+          padding-left: 50px;
+          padding-bottom: 50px;
+        }
+  
+        &:nth-child(odd):before, &:nth-child(even):before {
+          top: -18px;
+          left: 16px;
+        }
+  
+        &:nth-child(odd) .time, &:nth-child(even) .time {
+          top: -30px;
+          left: 50px;
+          right: inherit;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 1215px) {
+    .legal__links {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 823px) {
+    .flecha {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 455px) {
+    .container-1 {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 969px) {
+    .ticket {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1038px) {
+    .ache {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 725px) {
+    .tamaño {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 725px) {
+    #hr {
+      display: none;
+    }
+  }

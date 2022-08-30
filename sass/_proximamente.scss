@@ -1,0 +1,36 @@
+/* Próximamente */
+
+#main {
+    font-family: "cursive", arial;
+    color: rgb(250, 246, 246);
+    background: rgba(0, 0, 0, 0.8) url("../img/moon-2-p-1080.png");
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 45vh 0;
+  }
+  
+  #main-img {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #main {
+    h2 {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-family: cursive;
+      color: #fff;
+    }
+  
+    h4 {
+      color: #fff;
+    }
+  }

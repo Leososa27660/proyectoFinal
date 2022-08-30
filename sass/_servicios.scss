@@ -1,0 +1,309 @@
+/* servicios */
+
+.tamaño {
+  margin: 15px;
+  width: 400px;
+  height: 200px;
+}
+
+.margen {
+  margin: 10px;
+}
+
+.heading {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  padding: 3.5rem 0;
+  color: #ffb727;
+
+  span {
+    display: block;
+  }
+}
+
+.alinear {
+  margin: 10px;
+  text-align: center !important;
+}
+
+.featurette-divider {
+  padding: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem -1rem;
+}
+
+.gallery-item {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.gallery-image {
+  display: block;
+  
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+ 
+
+  &:hover {
+    transform: scale(1.15);
+  }
+}
+
+@supports (display: grid) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    grid-gap: 2rem;
+    margin: 0;
+  }
+
+  .gallery-item {
+    margin: 0;
+  }
+}
+
+.container4 {
+  background: url(../img/fondoseccion.jpg);
+  background-size: cover;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
+
+.ache {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 10px auto;
+  width: 1000px;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  transition: 1s box-shadow;
+
+  &:hover {
+    box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.1);
+
+    &::before, &::after {
+      display: block;
+      content: "";
+      position: absolute;
+      width: 1000px;
+      height: 400px;
+      background: #FDA8CF;
+      border-radius: 10px;
+      z-index: -1;
+      -webkit-animation: 1s clockwise infinite;
+      animation: 1s clockwise infinite;
+    }
+
+    &:after {
+      background: #ffb727;
+      -webkit-animation: 2s counterclockwise infinite;
+      animation: 2s counterclockwise infinite;
+    }
+  }
+}
+
+@-webkit-keyframes clockwise {
+  0% {
+    top: -5px;
+    left: 0;
+  }
+
+  12% {
+    top: -2px;
+    left: 2px;
+  }
+
+  25% {
+    top: 0;
+    left: 5px;
+  }
+
+  37% {
+    top: 2px;
+    left: 2px;
+  }
+
+  50% {
+    top: 5px;
+    left: 0;
+  }
+
+  62% {
+    top: 2px;
+    left: -2px;
+  }
+
+  75% {
+    top: 0;
+    left: -5px;
+  }
+
+  87% {
+    top: -2px;
+    left: -2px;
+  }
+
+  100% {
+    top: -5px;
+    left: 0;
+  }
+}
+
+@keyframes clockwise {
+  0% {
+    top: -5px;
+    left: 0;
+  }
+
+  12% {
+    top: -2px;
+    left: 2px;
+  }
+
+  25% {
+    top: 0;
+    left: 5px;
+  }
+
+  37% {
+    top: 2px;
+    left: 2px;
+  }
+
+  50% {
+    top: 5px;
+    left: 0;
+  }
+
+  62% {
+    top: 2px;
+    left: -2px;
+  }
+
+  75% {
+    top: 0;
+    left: -5px;
+  }
+
+  87% {
+    top: -2px;
+    left: -2px;
+  }
+
+  100% {
+    top: -5px;
+    left: 0;
+  }
+}
+
+@-webkit-keyframes counterclockwise {
+  0% {
+    top: -5px;
+    right: 0;
+  }
+
+  12% {
+    top: -2px;
+    right: 2px;
+  }
+
+  25% {
+    top: 0;
+    right: 5px;
+  }
+
+  37% {
+    top: 2px;
+    right: 2px;
+  }
+
+  50% {
+    top: 5px;
+    right: 0;
+  }
+
+  62% {
+    top: 2px;
+    right: -2px;
+  }
+
+  75% {
+    top: 0;
+    right: -5px;
+  }
+
+  87% {
+    top: -2px;
+    right: -2px;
+  }
+
+  100% {
+    top: -5px;
+    right: 0;
+  }
+}
+
+@keyframes counterclockwise {
+  0% {
+    top: -5px;
+    right: 0;
+  }
+
+  12% {
+    top: -2px;
+    right: 2px;
+  }
+
+  25% {
+    top: 0;
+    right: 5px;
+  }
+
+  37% {
+    top: 2px;
+    right: 2px;
+  }
+
+  50% {
+    top: 5px;
+    right: 0;
+  }
+
+  62% {
+    top: 2px;
+    right: -2px;
+  }
+
+  75% {
+    top: 0;
+    right: -5px;
+  }
+
+  87% {
+    top: -2px;
+    right: -2px;
+  }
+
+  100% {
+    top: -5px;
+    right: 0;
+  }
+}

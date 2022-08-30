@@ -1,0 +1,19 @@
+/*/Hotel*/
+
+:root {
+    font-size: 14px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  
+    &::before, &::after {
+      box-sizing: border-box;
+    }
+  }
+  
+  .hotel0 {
+    font-size: larger;
+    font-size: 25px;
+    color: #dddcdb;
+  }
